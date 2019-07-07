@@ -1,0 +1,42 @@
+{
+  "name": "phytojs-api-serverless",
+  "version": "1.0.0",
+  "description": "API exposed as a wrapper of the reusable PhytoJS: @rondinif/phytojs service logic",
+  "keywords": [
+    "botanica",
+    "botanical",
+    "flowers",
+    "garden",
+    "grow vegetables",
+    "herbs",
+    "linked data",
+    "plants",
+    "rdf",
+    "spqrql",
+    "vegetables",
+    "vegetable garden",
+    "wikidata",
+    "wkbotanica"
+  ],
+  "author": "rondinif",
+  "license": "MIT",
+  "homepage": "https://github.com/rondinif/phytojs-api-serverless#readme",
+  "bugs": {
+    "url": "https://github.com/rondinif/phytojs-api-serverless/issues",
+    "email": "rondinif+phytojs@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rondinif/phytojs-api-serverless.git"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@rondinif/phytojs": "^1.3.0",
+    "esm": "^3.2.25",
+    "isomorphic-fetch": "^2.2.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {}
+}

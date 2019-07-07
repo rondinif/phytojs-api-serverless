@@ -1,3 +1,7 @@
+# Azure functions 
+bin
+obj
+
 # Logs
 logs
 *.log

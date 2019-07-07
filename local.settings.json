@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+    "REDIS_CACHE_HOST_NAME": "localhost",
+    "REDIS_CACHE_HOST_PORT": "6379"
+  }
+}
