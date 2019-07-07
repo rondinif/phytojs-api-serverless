@@ -65,6 +65,35 @@ launch.json
 }
 ```
 
+```
+> Executing task: func host start <
+
+
+                  %%%%%%
+                 %%%%%%
+            @   %%%%%%    @
+          @@   %%%%%%      @@
+       @@@    %%%%%%%%%%%    @@@
+     @@      %%%%%%%%%%        @@
+       @@         %%%%       @@
+         @@      %%%       @@
+           @@    %%      @@
+                %%
+                %
+
+Azure Functions Core Tools (2.7.1373 Commit hash: cd9bfca26f9c7fe06ce245f5bf69bc6486a685dd)
+Function Runtime Version: 2.0.12507.0
+Skipping 'DOTNET_CLI_TELEMETRY_OPTOUT' from local settings as it's already defined in current environment variables.
+
+Http Functions:
+
+        HttpTrigger: [GET,POST] http://localhost:7071/v1/resolvedPlantsByName/{name:alpha}
+```
+
+``` bash 
+curl http://0.0.0.0:7071/v1/resolvedPlantsByName/origano
+```
+
 ## Optional caching service response in Redis Cache  
 - local develoment: 
   - configuration: `local.settings.json`
