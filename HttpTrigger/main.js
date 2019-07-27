@@ -1,9 +1,7 @@
 import 'isomorphic-fetch';
 import { Phyto } from '@rondinif/phytojs';
-// import { fail } from 'assert';
 const phyto = new Phyto(fetch);
 const redis = require('redis');
-
 
 const redisCacheHostName = process.env.REDIS_CACHE_HOST_NAME;
 const redisCacheHostPort = process.env.REDIS_CACHE_HOST_PORT;
